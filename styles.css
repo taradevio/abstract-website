@@ -16,7 +16,7 @@
 
 .menu {
   gap: 10px;
-  margin: 1em 3em;
+  margin: 1em 4em;
   width: fit-content;
   align-items: center;
   display: flex;
@@ -29,7 +29,7 @@
 .button {
   width: fit-content;
   display: flex;
-  margin: 0 3em;
+  margin: 0 4em;
   gap: 15px;
 }
 
@@ -42,10 +42,10 @@ button {
   cursor: pointer;
   background-color: #000000;
   color: #fff;
-  font-size: 25px;
+  font-size: 23px;
   border: 1px solid white;
-  border-radius: 10px;
-  padding: 10px 25px;
+  border-radius: 8px;
+  padding: 10px 28px;
 }
 
 .sign-in {
@@ -56,16 +56,17 @@ button {
 .sign-in:hover {
   background-color: #fff;
   color: #000000;
-  transition: ease-in-out 200ms;
+  transition: ease-in-out 400ms;
 }
 
 #page-one {
-    background-color: #dadbf1;
-    width: 100%;
+  display: flow-root;
+  background-color: #dadbf1;
+  width: 100%;
 }
 
 .main-page {
-    border: 2px solid;
+  margin: 5.5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +74,7 @@ button {
 
 h1 {
   text-align: center;
-  font-size: 77px;
+  font-size: 73px;
   font-weight: 500;
 }
 
@@ -85,15 +86,19 @@ form {
 }
 
 input {
-  width: 750px;
-  border: 2px solid red;
-  padding: 22px;
+  width: 700px;
+  border: 1px solid #000000;
+  padding: 21px;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 auto;
-  text-align: left; /* Align text to the left */
+  text-align: left;
   border-radius: 5px;
   outline: none;
+}
+
+input:hover, input:focus {
+  border-color: #4C5FD5;
 }
 
 .search-input {
@@ -108,4 +113,8 @@ input {
   height: 20px;
   width: 20px;
   font-size: 20px;
+}
+
+.search-input:hover, search-input:focus {
+  color: #4C5FD5;
 }
