@@ -97,8 +97,9 @@ input {
   outline: none;
 }
 
-input:hover, input:focus {
-  border-color: #4C5FD5;
+input:hover,
+input:focus {
+  border-color: #4c5fd5;
 }
 
 .search-input {
@@ -115,6 +116,56 @@ input:hover, input:focus {
   font-size: 20px;
 }
 
-.search-input:hover, search-input:focus {
-  color: #4C5FD5;
+.search-input:hover,
+search-input:focus {
+  color: #4c5fd5;
+}
+
+#content {
+  width: 100%;
+  min-height: 100vh;
+  display: flow-root;
+}
+
+.content {
+  gap: 1.5em;
+  width: 100%;
+  margin: 8em 0;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.branch {
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+.text {
+  word-spacing: 1px;
+  gap: 5px;
+}
+
+
+h2 {
+  letter-spacing: 0.5px;
+}
+
+.link {
+  color: #4c5fd5;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
