@@ -15,6 +15,7 @@
 }
 
 .menu {
+  font-size: 24px;
   gap: 10px;
   margin: 1em 4em;
   width: fit-content;
@@ -22,8 +23,23 @@
   display: flex;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
 .bx.bxl-mailchimp {
   font-size: 33px;
+}
+
+.help-center:hover {
+  text-decoration: underline;
 }
 
 .button {
@@ -34,7 +50,6 @@
 }
 
 li {
-  text-align: center;
   list-style-type: none;
 }
 
@@ -117,7 +132,7 @@ input:focus {
 }
 
 .search-input:hover,
-search-input:focus {
+.search-input:focus {
   color: #4c5fd5;
 }
 
@@ -161,6 +176,7 @@ h2 {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 p {
@@ -168,4 +184,46 @@ p {
   text-align: left;
   margin-top: 0.5em;
   margin-bottom: 1em;
+}
+
+footer {
+  display: flow-root;
+  background-color: #000000;
+  color: #fff;
+}
+
+
+footer li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#contact p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  margin: 2% 6%;
+
+}
+
+.abstract {
+  width: 100%;
+  
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6%;
+  margin-bottom: 3%;
 }
